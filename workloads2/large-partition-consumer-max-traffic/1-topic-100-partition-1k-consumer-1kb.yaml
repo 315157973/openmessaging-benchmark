@@ -17,14 +17,14 @@
 # under the License.
 #
 
-name: 1 topic / 100 partition / 20W consumer / 1Kb
+name: 1 topic / 1000 partition / 1k consumer / 1Kb
 
-topics: 100
-partitionsPerTopic: 1
+topics: 1
+partitionsPerTopic: 100
 keyDistributor: "NO_KEY"
 messageSize: 1024
 payloadFile: "payload/payload-1Kb.data"
-subscriptionsPerTopic: 2000
+subscriptionsPerTopic: 10
 consumerPerSubscription: 1
 producersPerTopic: 1
 producerRate: 400000

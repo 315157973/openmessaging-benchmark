@@ -33,14 +33,14 @@
 		<module>driver-api</module>
 
 		<module>driver-pulsar</module>
-		<module>driver-kafka</module>
+		<!--<module>driver-kafka</module>
 		<module>driver-rabbitmq</module>
-		<module>driver-artemis</module>
+		<module>driver-artemis</module>-->
 		<module>driver-bookkeeper</module>
-		<module>driver-rocketmq</module>
-		<module>driver-nats</module>
-		<module>driver-nats-streaming</module>
-		<module>driver-nsq</module>
+		<!--<module>driver-rocketmq</module>
+		<module>driver-nats</module>-->
+		<!--<module>driver-nats-streaming</module>
+		<module>driver-nsq</module>-->
 		<module>package</module>
 		<module>docker</module>
 	</modules>
@@ -66,8 +66,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>11</source>
-					<target>11</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<encoding>UTF-8</encoding>
 					<showDeprecation>true</showDeprecation>
 					<showWarnings>true</showWarnings>

@@ -33,14 +33,14 @@
 		<module>driver-api</module>
 
 		<module>driver-pulsar</module>
-		<!--<module>driver-kafka</module>
+		<module>driver-kafka</module>
 		<module>driver-rabbitmq</module>
-		<module>driver-artemis</module>-->
+		<module>driver-artemis</module>
 		<module>driver-bookkeeper</module>
-		<!--<module>driver-rocketmq</module>
-		<module>driver-nats</module>-->
-		<!--<module>driver-nats-streaming</module>
-		<module>driver-nsq</module>-->
+		<module>driver-rocketmq</module>
+		<module>driver-nats</module>
+		<module>driver-nats-streaming</module>
+		<module>driver-nsq</module>
 		<module>package</module>
 		<module>docker</module>
 	</modules>
@@ -74,7 +74,7 @@
 					<optimize>true</optimize>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>com.mycila</groupId>
 				<artifactId>license-maven-plugin</artifactId>
 				<version>3.0</version>
@@ -103,7 +103,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 

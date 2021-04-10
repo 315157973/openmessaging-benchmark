@@ -23,10 +23,10 @@ topics: 1
 partitionsPerTopic: 50000
 keyDistributor: "NO_KEY"
 messageSize: 5242880
-payloadFile: "payload/payload-5MB.data"
+payloadFile: "payload/payload-5Mb.data"
 subscriptionsPerTopic: 1
 consumerPerSubscription: 1
 producersPerTopic: 1
-producerRate: 10000
+producerRate: 410
 consumerBacklogSizeGB: 0
 testDurationMinutes: 5

@@ -17,13 +17,13 @@
 # under the License.
 #
 
-name: 1 topic / 400000 partition / 10Mb
+name: 1 topic / 50000 partition / 1Mb
 
 topics: 1
-partitionsPerTopic: 400000
+partitionsPerTopic: 50000
 keyDistributor: "NO_KEY"
-messageSize: 10485760
-payloadFile: "payload/payload-10Mb.data"
+messageSize: 1048576
+payloadFile: "payload/payload-1Mb.data"
 subscriptionsPerTopic: 1
 consumerPerSubscription: 1
 producersPerTopic: 1

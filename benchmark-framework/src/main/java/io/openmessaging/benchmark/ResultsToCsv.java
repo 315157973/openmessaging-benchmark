@@ -21,7 +21,6 @@ package io.openmessaging.benchmark;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.HdrHistogram.Histogram;
-import org.bouncycastle.util.test.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
